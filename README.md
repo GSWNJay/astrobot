@@ -1,4 +1,4 @@
-# 🤖 AstroBot (ABot)
+# AstroBot (ABot)
 
 **An AI-powered automation bot built with Python to learn and master:**
 - 🖱️ **PyAutoGUI** - Computer automation
@@ -6,7 +6,7 @@
 - 🤖 **Selenium** - Browser automation
 - 🧠 **GitHub Copilot API** - AI integration
 
-> **Status:** 🚧 In Development - Learning Project  
+> **Status:** In Development - Learning Project  
 > **Started:** 2025-12-22
 
 ---
@@ -85,7 +85,7 @@ AstroBot/
 
 ---
 
-## 🌿 Branch Strategy
+## Branch Strategy
 
 - `main` - Protected branch (only @GSWNJay can merge)
 - `develop` - Active development branch
@@ -140,7 +140,7 @@ AstroBot/
 
 ## 🔒 Security
 
-This is a **public repository** during development in order to allow branch protection rules.
+This is a **public repository** in order to allow branch protection rules.
 
 **Important:**
 - Never commit API keys or credentials
@@ -166,4 +166,4 @@ For team members:
 
 ---
 
-**Let's build something amazing!  🚀**
+**Let's build something out-worldly 🚀**

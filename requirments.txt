@@ -1,0 +1,22 @@
+# Core automation modules
+pyautogui==0.9.54
+beautifulsoup4==4.12.3
+selenium==4.16.0
+
+# Supporting libraries
+requests==2.31.0
+lxml==5.1.0
+pillow==10.2.0
+
+# GitHub API (for Copilot integration)
+PyGithub==2.1.1
+openai==1.6.1
+
+# Development tools
+pytest==7.4.3
+black==23.12.1
+flake8==7.0.0
+pre-commit==3.6.0
+
+# Utilities
+python-dotenv==1.0.0
