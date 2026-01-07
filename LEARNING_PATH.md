@@ -49,6 +49,6 @@ pyautogui.click()
 
 **Resources:**
 - [PyAutoGUI Documentation](https://pyautogui.readthedocs.io/)
-- Place any samples in your `examples/pyautogui_examples/` as reference code
+- Place any samples in your `examples/pyautogui_examples/<YOUR_NAME>/` as reference code
 
 ---
