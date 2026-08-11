@@ -43,7 +43,7 @@ AstroBot/
 ## Getting Started
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.8 or highest 3.12 #If you have a higher Python version, e.g. 3.13 or later, please download Python 3.12 from python.org
 - Git installed
 - GitHub account
 
@@ -57,8 +57,12 @@ AstroBot/
 
 2. **Create virtual environment:**
    ```bash
-   python -m venv venv
+   # Create (Windows)
+   py -3.12 -m venv venv
    
+   # Create (Mac/Linux)
+   python3.12 -m venv venv
+
    # Activate (Windows)
    venv\Scripts\activate
    
