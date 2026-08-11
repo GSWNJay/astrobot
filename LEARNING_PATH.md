@@ -1,9 +1,10 @@
 # AstroBot Learning Path
 
-Here is our structured journey to building AstroBot.  With thi plan we should pull off this rocket science across all four main technologies.
+Here is our structured journey to building AstroBot.  With this plan we should pull off this rocket science across all four main technologies.
 
 
 ## Phase 1: PyAutoGUI - Computer Automation
+
 
 **Goal:** Control your computer programmatically
 
@@ -11,7 +12,7 @@ Here is our structured journey to building AstroBot.  With thi plan we should pu
 
 #### Day 1-2: Mouse Control
 - [ ] Install PyAutoGUI
-- [ ] Learn `pyautogui. position()` - get mouse position
+- [ ] Learn `pyautogui.position()` - get mouse position
 - [ ] Learn `pyautogui.moveTo()` - move mouse
 - [ ] Learn `pyautogui.click()` - click mouse
 - [ ] **Exercise:** Create a script that moves mouse in a square pattern
