@@ -11,6 +11,9 @@ Here is our structured journey to building AstroBot.  With this plan we should p
 ### Week 1: Basics
 
 #### Day 1-2: Mouse Control
+Documentation: Installation - https://pyautogui.readthedocs.io/en/latest/install.html  
+Cheat sheet (Quick start) - https://pyautogui.readthedocs.io/en/latest/quickstart.html#
+
 - [ ] Install PyAutoGUI
 - [ ] Learn `pyautogui.position()` - get mouse position
 - [ ] Learn `pyautogui.moveTo()` - move mouse
@@ -18,6 +21,12 @@ Here is our structured journey to building AstroBot.  With this plan we should p
 - [ ] **Exercise:** Create a script that moves mouse in a square pattern
 
 **Example to try:**
+```bash 
+# For Linux run once per session to allow any local user/program on this machine to access the display.
+xhost +local: 
+```
+Add it to `~/.bashrc` file if it permanently solves the display access issue
+
 ```python
 import pyautogui
 import time
