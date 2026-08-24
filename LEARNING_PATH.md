@@ -21,12 +21,6 @@ Cheat sheet (Quick start) - https://pyautogui.readthedocs.io/en/latest/quickstar
 - [ ] **Exercise:** Create a script that moves mouse in a square pattern
 
 **Example to try:**
-```bash 
-# For Linux run once per session to allow any local user/program on this machine to access the display.
-xhost +local: 
-```
-Add it to `~/.bashrc` file if it permanently solves the display access issue
-
 ```python
 import pyautogui
 import time
@@ -39,6 +33,20 @@ print(f"Mouse at: {x}, {y}")
 pyautogui.moveTo(100, 100, duration=1)
 pyautogui.click()
 ```
+Requirements to grant display access on Linux:  
+```bash 
+# For Linux run once per session to allow any local user/program on this machine to access the display.
+xhost +local: 
+```
+Add it to `~/.bashrc` file if it permanently solves the display access issue
+
+Alternatively, Switch to Xorg on Linux Zorin:
+1. Save your current work and log out of your Zorin desktop session.  
+2. At the login screen, click on your username.
+3. Look for the gear icon (usually in the bottom right corner of the screen).
+4. Click it and select Zorin Desktop on Xorg (or similarly named Xorg option).
+5. Enter your password and log in.
+
 
 #### Day 3-4: Keyboard Control
 - [ ] Learn `pyautogui.write()` - type text
