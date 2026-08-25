@@ -60,13 +60,13 @@ AstroBot/
    # Create (Windows)
    py -3.12 -m venv venv
    
-   # Create (Mac/Linux)
+   # Create (MacOS/Linux)
    python3.12 -m venv venv
 
    # Activate (Windows)
    venv\Scripts\activate
    
-   # Activate (Mac/Linux)
+   # Activate (MacOS/Linux)
    source venv/bin/activate
    ```
 
@@ -91,7 +91,7 @@ AstroBot/
 
    ```
 
-4. **Start learning! **
+4. **Start learning!**
    Check out `LEARNING_PATH.md` for the structured learning roadmap.
 
 ---
@@ -102,7 +102,9 @@ AstroBot/
 - **Developers:** 
   - [@MinnieNtontela](https://github.com/MinnieNtontela)
   - [@AyandaEnhle](https://github.com/AyandaEnhle)
-
+Development Tools:  
+Machines used Linux Zorin & MacOS  
+IDE - VS Code
 ---
 
 ## Branch Strategy
