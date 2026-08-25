@@ -102,7 +102,7 @@ AstroBot/
 - **Developers:** 
   - [@MinnieNtontela](https://github.com/MinnieNtontela)
   - [@AyandaEnhle](https://github.com/AyandaEnhle)
-Development Tools:  
+- **Development Tools:**  
 Machines used Linux Zorin & MacOS  
 IDE - VS Code
 ---
