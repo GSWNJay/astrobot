@@ -5,14 +5,14 @@ Here is our structured journey to building AstroBot.  With this plan we should p
 
 ## Phase 1: PyAutoGUI - Computer Automation
 
+**Goal:** Control your computer programmatically  
 
-**Goal:** Control your computer programmatically
+Documentation: Installation - https://pyautogui.readthedocs.io/en/latest/install.html  
+Cheat sheet (Quick start) - https://pyautogui.readthedocs.io/en/latest/quickstart.html#
 
 ### Week 1: Basics
 
 #### Day 1-2: Mouse Control
-Documentation: Installation - https://pyautogui.readthedocs.io/en/latest/install.html  
-Cheat sheet (Quick start) - https://pyautogui.readthedocs.io/en/latest/quickstart.html#
 
 - [ ] Install PyAutoGUI
 - [ ] Learn `pyautogui.position()` - get mouse position
@@ -59,6 +59,10 @@ Alternatively, Switch to Xorg on Linux Zorin:
 - [ ] Learn `pyautogui.press()` - press keys
 - [ ] Learn `pyautogui.hotkey()` - keyboard shortcuts
 - [ ] **Exercise:** Automate opening Notepad and typing a message
+
+Hint - Try to only adapt to Keyboard Keys and shortcuts, example for different device types use the following:
+- MacOS `pyautogui.hotkey("command", "a")` to select everything
+- Linux/Windows `pyautogui.press("win")` to press the window button
 
 #### Day 5-7: Screenshots & Image Recognition
 - [ ] Learn `pyautogui.screenshot()` - capture screen
