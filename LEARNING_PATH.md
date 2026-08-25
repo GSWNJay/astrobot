@@ -21,6 +21,12 @@ Cheat sheet (Quick start) - https://pyautogui.readthedocs.io/en/latest/quickstar
 - [ ] **Exercise:** Create a script that moves mouse in a square pattern
 
 **Example to try:**
+```bash 
+# For Linux run once per session to allow any local user/program on this machine to access the display.
+xhost +local: 
+```
+Add it to `~/.bashrc` file if it permanently solves the display access issue
+
 ```python
 import pyautogui
 import time

@@ -75,6 +75,22 @@ AstroBot/
    pip install -r requirements.txt
    ```
 
+   Crypotgraphy wheel error in MacOS fix:
+   ```bash
+   install openssl:
+      brew install openssl@3
+      
+   install pkg-config
+      brew install pkg-config
+
+   build system:
+      export OPENSSL_DIR="/usr/local/opt/openssl@3"
+      export LDFLAGS="-L/usr/local/opt/openssl@3/lib"
+      export CPPFLAGS="-I/usr/local/opt/openssl@3/include"
+      export PKG_CONFIG_PATH="/usr/local/opt/openssl@3/lib/pkgconfig"
+
+   ```
+
 4. **Start learning! **
    Check out `LEARNING_PATH.md` for the structured learning roadmap.
 
