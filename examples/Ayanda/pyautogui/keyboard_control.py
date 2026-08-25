@@ -1,13 +1,21 @@
 import pyautogui
-import subprocess
 import time
 
-subprocess.Popen(["open", "-a", "TextEdit"])
+# Open Spotlight
+pyautogui.keyDown("command")
+pyautogui.press("space")
+pyautogui.keyUp("command")
+
+time.sleep(2)
+pyautogui.write("TextEdit")
+pyautogui.press("enter")
 
 time.sleep(2)
 
 pyautogui.write("Hello Odelia and Njabulo!")
-pyautogui.press("Enter")
+pyautogui.press("enter")
+pyautogui.write("Ninjani")
 
-#keyboard shortcuts
-pyautogui.hotkey("command", "a")
+pyautogui.keyDown("command")
+pyautogui.press("a")
+pyautogui.keyUp("command")
